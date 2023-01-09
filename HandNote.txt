@@ -1,0 +1,44 @@
+
+Netflix
+React
+redux
+Firebase
+stripe
+
+
+1. crate react app> code . or code-insiders . (ctrl+shift+p > install)
+npm start
+2. goto Firebase.google.com
+login>console>add a project>continue
+disable analytics > create project>  wait > continue
+
+setting icon>project setting>
+
+goto your apps
+
+click link symbol
+put app name for register
+check firebase hosting
+register > next
+npm install -g firebase-tools (3. install firebase cli)
+4. deploy to firebase hosting
+firebase login
+firebase init
+firebase deploy
+
+continue to console
+
+in firebase SDK snippet > check Config > then copy const js code 
+
+goto react app src folder create a file firebase.js and paste const js code
+
+
+remove the unwanted files from the src folder
+
+
+in firebase
+goto authentications>get start> in sign-in method> click on email and enable (up one) and save
+
+
+
+goto tmdb for database
