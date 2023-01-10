@@ -42,3 +42,8 @@ goto authentications>get start> in sign-in method> click on email and enable (up
 
 
 goto tmdb for database
+
+armin243
+@armiN243
+
+login > setting> api >fill detail get api
