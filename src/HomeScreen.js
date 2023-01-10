@@ -4,7 +4,9 @@ import Nav from "./Nav";
 function HomeScreen(){
     return(
         <div className="homeScreen">
-            <h2>Home screen</h2>
+            {/* <h2>Home screen</h2> */}
+
+            {/* NavBar */}
             <Nav />
 
             {/* Banner */}
