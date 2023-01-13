@@ -111,3 +111,29 @@ enable email
 in firebase.js
 
 const firebaseApp = firebase.initializeApp(firebaseConfig) and firebaseConfig is contianting apiKey, authDomain, prjId,etc.
+
+and hit the command in terminal
+npm add firebase
+
+goto firebase.google.com
+app> authentigation > sigin enalble signin 
+
+in firebase.js
+initilize firebase like
+
+// Initialize Firebase
+const firebaseApp = initializeApp(firebaseConfig);
+const db = firebaseApp.firestore();
+const auth = firebase.auth();
+
+export {
+  auth
+};
+export default db;
+
+
+then in signin screen 
+capter user input track email pass
+
+with emailref,passref with ref hook paraller provie ref in input tag 
+auth reg function with firebase auth 

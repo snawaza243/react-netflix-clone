@@ -5,7 +5,7 @@
     text-align: center;
     justify-content: center;
     /* remove display flex for gradient filter */
-    display: flex; 
+    /* display: flex;  */
 
 }
 
@@ -54,10 +54,10 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    /* display:grid;
+    display:grid;
     justify-content: center;
     align-content: center;
-    flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 
