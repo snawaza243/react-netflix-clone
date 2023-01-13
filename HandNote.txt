@@ -47,3 +47,67 @@ armin243
 @armiN243
 
 login > setting> api >fill detail get api
+
+
+goto react app
+create HomeScreen app and css
+arrange the multi comp in homeScreen
+create Nav and css design
+create Banner and css 
+    create axios, request and fetch data from api into the banner
+create Row and css
+    in row map the image and title of movie
+    in homeScreen import row and pass the attribute value defined in row comp (title, fetchURL)
+
+after get the result of list
+
+in cli implement following command to login in the same app
+firebase login
+firebase init
+choose firebase hosting deploy with to move up down arrow and select with space bar 
+then choose use an existing projects
+then choose the project
+type 'build' for public 
+yes for single page configure
+no for automatic manage
+
+
+then make bundle up the project and 
+
+npm run build
+
+firebase deploy
+
+Hurrah successfully deployed 
+https://react-netflix-clone-214b6.web.app/
+https://react-netflix-clone-214b6.firebaseapp.com/
+
+
+multi page into single page router
+
+npm i react-router
+
+
+
+login sing in part
+
+first create get start page 
+then use sign in  and setsignin usestate and renter the login screen body part with conditional and on click button popup sign in option and disappear get start part
+
+prevent onlick signup and sign button
+
+configure signin with firebase
+
+int firebase.js
+
+import firebase from 'firebase'
+
+goto firebase id
+authoentication
+signin method
+enable email
+
+
+in firebase.js
+
+const firebaseApp = firebase.initializeApp(firebaseConfig) and firebaseConfig is contianting apiKey, authDomain, prjId,etc.
