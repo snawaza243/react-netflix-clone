@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-
+<a href="https://react-netflix-clone-214b6.web.app/" >Live </a>
 
 
 ![image](https://user-images.githubusercontent.com/91892524/221340011-afe755a5-d229-4e1c-bbf1-a3bc6cf8a8ae.png)
